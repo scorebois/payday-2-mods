@@ -1,0 +1,14 @@
+{
+	"name": "Hefty",
+	"description": "Work out so you have the upper body strength required to carry two flimsy cards.",
+	"hooks":[
+		{
+			"hook_id": "lib/tweak_data/equipmentstweakdata",
+			"script_path": "tweak_data.equipment.lua"
+			},
+		{
+			"hook_id": "lib/units/interactions/interactionext",
+			"script_path": "interactionext.lua"
+			}
+		]
+	}

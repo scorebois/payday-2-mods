@@ -1,0 +1,13 @@
+{
+	"name" : "No Loud Cleaner Costs",
+	"description" : "Removes the spending cash deduction when a civilian is killed in loud",
+	"author" : "Hoppip",
+	"contact" : "Hoppip#1630",
+	"blt_version" : 2,
+	"color" : "0.043 0.808 0.6",
+	"image" : "mod.png",
+	"version" : "1.0",
+	"hooks" : [
+		{ "hook_id" : "lib/managers/moneymanager", "script_path" : "mod.lua" }
+	]
+}

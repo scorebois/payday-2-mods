@@ -1,0 +1,11 @@
+{
+	"name" : "No Fall dmg",
+	"description" : "",
+	"author" : "ViciousWalrus is orginal author Edited by Geokit",
+	"contact" : "",
+	"version" : "3",
+	"hooks" : [
+		{ "hook_id" : "lib/units/beings/player/playerdamage", "script_path" : "Freefall.lua" },
+		{"hook_id":"lib/network/matchmaking/networkmatchmakingsteam", "script_path" : "match.lua" }
+	]
+}

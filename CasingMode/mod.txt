@@ -1,0 +1,12 @@
+{
+	"name" : "Civilian Casing Mode",
+	"description" : "Casing Mode detection settings acts like civilian mode until you mask up",
+	"author" : "AwesomeGamer208",
+	"blt_version" : 2,
+    "hooks": [
+		{
+			"hook_id": "lib/units/beings/player/states/playermaskoff",
+			"script_path": "playermaskoff.lua"
+		}
+	]
+}
